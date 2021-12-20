@@ -29,8 +29,8 @@ metadata:
 spec:
   type: ClusterIP
   ports:
-  - port: 85
+  - port: 84
     protocol: TCP
-    targetPort: 85
+    targetPort: 84
   selector:
     app: my-backend-api
